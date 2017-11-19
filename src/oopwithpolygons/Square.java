@@ -9,6 +9,7 @@ package oopwithpolygons;
  *
  * @author Avuidrauxs
  */
+// Square inheriting from OOPwithPolygons
 public class Square extends OOPwithPolygons 
 {
     
@@ -16,6 +17,7 @@ public class Square extends OOPwithPolygons
         super(sides);
     }
     
+    //Overriding the method 'mention()' inherited from OOPwithPolygons
     @Override
     public void mention(){
         System.out.println("I am a Square with 4 sides");
