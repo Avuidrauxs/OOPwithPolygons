@@ -23,6 +23,10 @@ public class OOPwithPolygons {
         System.out.println("I am a polygon");
     }
     
+    public void mention (int sides) {
+        System.out.println("I can be overloaded too and I have "+sides+" sides");
+    }
+    
     // Getter metod
     public int getSides() {
         return sides;
